@@ -1,0 +1,53 @@
+Nodejs
+
+O Node.js é um ambiente de tempo de execução JavaScript back-end de código aberto, multiplataforma, que possibilita a construção de aplicações web em geral, desde web sites até APIs e microsserviços. Isso ocorre em razão da junção do ambiente de execução de JavaScript fornecido pelo próprio Node.js e o motor de interpretação e execução de JavaScript presente no Google Chrome, chamado de V8. Esse mecanismo pega o código JavaScript e o converte em um código de máquina mais rápido. 
+
+O Node.js surgiu quando os desenvolvedores originais do JavaScript o estenderam de algo que você só pode executar no navegador para algo que pode ser executado na máquina, como um aplicativo independente.
+
+
+Express
+
+Escrito em JavaScript, o Express.js é um Framework rápido e um dos mais utilizados em conjunto com o Node.js, facilitando no desenvolvimento de aplicações backend e até, em conjunto com sistemas de templates, aplicações full-stack.
+
+Principais características:
+
+- Possui um sistema de rotas completo;                                                                                       
+- Possibilita o tratamento de exceções dentro da aplicação;                                                              
+- Permite a integração de vários sistemas de templates que facilitam a criação de páginas web para suas aplicações;
+- Gerencia diferentes requisições HTTP com seus diversos verbos;                                                     
+- Feito para a criação rápida de aplicações utilizando um conjunto pequeno de arquivos e pastas.                       
+
+
+Verbos HTTP e Restful
+
+O protocolo HTTP define um conjunto de métodos de requisição responsáveis por indicar a ação a ser executada para um dado recurso. Embora esses métodos possam ser descritos como substantivos, eles também são comumente referenciados como Verbos HTTP. Cada um deles implementa uma semântica diferente, mas alguns recursos são compartilhados por um grupo deles.
+
+A sigla CRUD (acrônimo do inglês Create, Read, Update and Delete) trata-se das quatro operações básicas presentes nas APIs RESTful. Cada letra na sigla pode ser mapeada para um método HTTP, que será utilizado pelas APIs Restful para definir qual é a finalidade da requisição que está sendo enviada. Os verbos são:
+
+- CREATE / POST: é utilizado para submeter uma entidade a um recurso específico, frequentemente causando uma mudança no estado do recurso ou efeitos colaterais no servidor. Em outras palavras, é o método utilizado para criar um recurso.
+
+- READ / GET: solicita a representação de um recurso específico. Requisições utilizando o método GET devem retornar apenas dados.
+
+- UPDATE / PUT: substitui todas as atuais representações do recurso de destino pela carga de dados da requisição.
+
+- UPDATE / PATCH: é utilizado para aplicar modificações parciais em um recurso.
+
+- DELETE / DELETE: remove um recurso específico.
+
+As APIs Restful são interfaces que fornecem dados em um formato padronizado baseado nas requisições HTTP e aumentam a performance para situações de concorrência, ou seja, quando muitas pessoas estão pedindo a mesma coisa ao mesmo tempo.
+
+
+
+Links:
+
+https://www.devmedia.com.br/guia/node-js/40312
+
+https://en.wikipedia.org/wiki/Node.js
+
+https://en.wikipedia.org/wiki/Express.js
+
+https://www.treinaweb.com.br/blog/o-que-e-o-express-js?gclid=Cj0KCQiAjJOQBhCkARIsAEKMtO11VsBsD-p8DrcdJThs6sF692MoSkiClAoBPqxXO3DSrszPms-ahHwaAiobEALw_wcB
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
+
+https://www.hostgator.com.br/blog/api-restful/

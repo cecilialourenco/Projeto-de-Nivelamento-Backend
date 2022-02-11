@@ -1,8 +1,8 @@
-Nodejs
+NodeJs
 
-O Node.js é um ambiente de tempo de execução JavaScript back-end de código aberto, multiplataforma, que possibilita a construção de aplicações web em geral, desde web sites até APIs e microsserviços. Isso ocorre em razão da junção do ambiente de execução de JavaScript fornecido pelo próprio Node.js e o motor de interpretação e execução de JavaScript presente no Google Chrome, chamado de V8. Esse mecanismo pega o código JavaScript e o converte em um código de máquina mais rápido. 
+O Node.js é um ambiente de execução JavaScript backend de código aberto, multiplataforma, que possibilita a construção de aplicações web em geral, desde web sites até APIs e microsserviços. Isso ocorre em razão da junção do ambiente de execução de JavaScript, fornecido pelo próprio Node.js, e o motor de interpretação e execução de JavaScript presente no Google Chrome, chamado de V8. Esse mecanismo pega o código JavaScript e o converte em um código de máquina mais rápido. 
 
-O Node.js surgiu quando os desenvolvedores originais do JavaScript o estenderam de algo que você só pode executar no navegador para algo que pode ser executado na máquina, como um aplicativo independente.
+O Node.js surgiu quando os desenvolvedores originais do JavaScript o estenderam de algo que só era possível executar no navegador para algo que pode ser executado na máquina, como um aplicativo independente.
 
 
 Express

@@ -10,7 +10,7 @@ router.post('/register', async(req, res) => {
   try {
 
     if (await Book.findOne({ title }))
-      return res.status(400).send({  error: 'Book already registered' })
+      return res.status(400).send({  error: 'Book already registered' });
 
     const book = await Book.create(req.body);
 
@@ -47,7 +47,7 @@ router.get('/register/:id', async(req, res) => {
       return
     }
 
-    return res.status(200).json(book)
+    return res.status(200).json(book);
      
   }catch (error) {
     res.status(500).json({ error: error });
@@ -95,7 +95,7 @@ router.delete('/register/:id', async (req, res) => {
 
     await Book.deleteOne({ _id: id });
 
-    return res.status(200).json({ message: 'Book successfully removed' })
+    return res.status(200).json({ message: 'Book successfully removed' });
 
   }catch (error) {
     res.status(500).json({ error: error });
